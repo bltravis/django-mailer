@@ -111,5 +111,5 @@ def mail_managers(subject, message, bcc=None, attachments=None, headers=None, fa
                      [a[1] for a in settings.MANAGERS],
                      bcc=bcc,
                      attachments=attachments,
-                     headers=headers
+                     headers=headers,
                      priority=priority)
